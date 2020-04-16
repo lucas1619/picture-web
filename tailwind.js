@@ -5,12 +5,15 @@ module.exports = {
       center: true
     },
     fontFamily: {
-      display: ['Gilroy', 'sans-serif'],
-      body: ['Graphik', 'sans-serif']
+
     },
     extend: {
       colors: {
-        cyan: '#9cdbff'
+        cyan: '#9cdbff',
+        back_color: '#F3F0E9',
+      },
+      spacing: {
+        img_desktop: '76px',
       },
       margin: {
         '96': '24rem',
